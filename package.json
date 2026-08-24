@@ -1,0 +1,51 @@
+{
+  "name": "4real-nft-card-forge",
+  "version": "2.0.0",
+  "description": "Professional NFT Card Forge with 3D Character Maker and Advanced Rendering",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.20.0",
+    "three": "^0.159.0",
+    "@react-three/fiber": "^8.15.12",
+    "@react-three/drei": "^9.88.0",
+    "zustand": "^4.4.7",
+    "framer-motion": "^10.16.16",
+    "html2canvas": "^1.4.1",
+    "file-saver": "^2.0.5",
+    "uuid": "^9.0.0",
+    "color": "^4.2.3",
+    "tinycolor2": "^1.6.0",
+    "lodash": "^4.17.21",
+    "date-fns": "^2.30.0",
+    "idb": "^7.1.1",
+    "react-color": "^2.19.3"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@types/three": "^0.159.0",
+    "@types/file-saver": "^2.0.7",
+    "@types/uuid": "^9.0.7",
+    "@types/color": "^3.0.6",
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.0.8",
+    "typescript": "^5.3.3",
+    "eslint": "^8.55.0",
+    "@typescript-eslint/eslint-plugin": "^6.13.2",
+    "@typescript-eslint/parser": "^6.13.2",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "vitest": "^1.1.0",
+    "@testing-library/react": "^14.1.2",
+    "@testing-library/jest-dom": "^6.1.5"
+  }
+}
